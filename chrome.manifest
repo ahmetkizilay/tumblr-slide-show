@@ -1,0 +1,7 @@
+content	tumblrss	content/
+overlay	chrome://browser/content/browser.xul	chrome://tumblrss/content/overlay.xul
+
+locale	tumblrss	en-US	locale/en-US/
+
+skin	tumblrss	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://tumblrss/skin/overlay.css
