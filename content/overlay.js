@@ -74,7 +74,7 @@ function parseTumblrResponse(tumblrResponse) {
 function createSlideShowDiv() {
     var newdiv = gBrowser.contentDocument.createElement('div');
     newdiv.setAttribute('id', 'myslideshow');
-    newdiv.style.position = 'absolute';
+    newdiv.style.position = 'fixed'; // absolute
     newdiv.style.top = gBrowser.contentDocument.documentElement.scrollTop + "px";
     newdiv.style.left = 0;
     newdiv.style.width = '100%';
